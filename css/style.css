@@ -1,0 +1,205 @@
+.header{
+	background:green;
+}
+.nav_list{margin: 0;}
+.container{
+max-width: 1240px;
+margin:0 auto;
+}
+.container_header {
+	display:flex;
+	justify-content:space-around; 
+}
+.logo{
+font-family: 'Revalia';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 79px;
+text-align: center;
+
+color: #34547A;
+margin-right: 40px;
+
+}
+.nav_list{
+	display:flex;
+	margin-top:auto;
+	margin-bottom:0;
+}
+.nav_item{
+	list-style: none;
+	margin-right: 40px; 
+}
+.link1:hover{
+	color:red;
+	box-shadow: 10px 10px 13px black
+}
+.nav{
+	margin:auto 0;
+}
+/*----------вторая часть home----------*/
+.home{
+	background:  #21C29C;
+}
+.container_home{
+	display: flex;
+}
+.right_home
+{margin-left:100px; }
+.home_text{
+	margin-bottom: 63px
+}
+{
+	margin-top: 60px
+}
+.home_button{
+background: red;
+	color: green;
+	padding: 12px;
+	width: 306px;
+}
+.home_title{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+}
+/*skills*/
+.skills{
+	background:#21C29C;
+	padding-bottom: 150px;
+	 }
+.img_skills{
+	width: 120px;
+}
+.flex{
+	display: flex;
+justify-content: space-around;
+}
+.skills_title{
+	margin: 0;
+text-align: center;
+padding: 50px;
+}
+.list_bar{padding: 0;
+}
+.item_bar{
+	list-style: none;
+}
+.title_bar{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin: 5px;
+}
+.bar{
+	background: #34547A;
+	width: 456.12px;
+height: 5px;
+}
+.bar2{
+	background: #34547A;
+	width: 291.39px;
+height: 5px;
+}
+.bar3{
+	background: #34547A;
+	width: 350px;
+height: 5px;
+}
+/---------gallary-----------/
+.title_video{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+margin-top: 0;
+}
+.text_video{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+}
+.video_vlog{
+	display: block;
+	margin:0 auto;
+	margin-bottom: 30px 
+}
+.video{
+	background: #EEEFF1;
+}
+.gallary_list{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.item_gallary{
+	list-style: none;
+	width: 25%;
+	margin-bottom: -10px;
+}
+.img_gallary{
+	width: 100%;
+}
+/*------foter-----*/
+.footer{
+	background: gray;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+
+color: #FFFFFF;
+
+}
+.container_footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.text_footer{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: #FFFFFF;
+padding-bottom: 50px
+}
+.title_footer{
+	padding-top: 50px
+}
+.right_footer{
+	list-style: none;
+	display: flex;
+}
+.img_footer{
+	width: 50px;
+}
+.item_footer{
+	margin-left: 10px;
+}
+.btn_return{
+	position: fixed;
+	top:80 ;
+	right: 30;
+	left: 0;
+	bottom: 0; 
+	margin: 30px;
+}
+.img_return{
+	width: 100px
+}
